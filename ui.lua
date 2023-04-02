@@ -11,6 +11,7 @@ local function CreateHTMLPanel(url, parent)
 end
 
 
+
 local function OpenHTMLMenu()
   local htmlFrame = vgui.Create("DFrame")
   htmlFrame:SetSize(ScrW(), ScrH())
