@@ -17,6 +17,7 @@ local function OpenHTMLMenu()
   htmlFrame:SetTitle("HTML Panel")
   htmlFrame:MakePopup()
   local htmlPanel = CreateHTMLPanel("data:text/html," .. htmlFile, htmlFrame)
+
 end
 
 
